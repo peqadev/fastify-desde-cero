@@ -732,25 +732,6 @@ async function authRoutes(fastify, options) {
 export default authRoutes
 ```
 
-## 🎯 Ejercicios Prácticos
-
-### Ejercicio 1: Agregar Plugin de Pedidos
-Crea un nuevo plugin `src/routes/pedidos.js` que maneje:
-- GET /api/pedidos - Lista de pedidos
-- POST /api/pedidos - Crear pedido
-- GET /api/pedidos/:id - Obtener pedido específico
-
-### Ejercicio 2: Middleware Global
-Crea un middleware que:
-- Registre todas las requests en un archivo de log
-- Agregue un header `X-Response-Time` a todas las respuestas
-
-### Ejercicio 3: Validación con Esquemas
-Implementa validación usando esquemas de Fastify para:
-- Validar el body de POST/PUT requests
-- Validar parámetros de ruta
-- Validar query parameters
-
 ## 🧪 Probando la API Organizada
 
 ```bash
