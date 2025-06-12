@@ -735,25 +735,6 @@ async function usuariosRoutes(fastify, options) {
 export default usuariosRoutes
 ```
 
-## 🎯 Ejercicios Prácticos
-
-### Ejercicio 1: Completar API de Productos
-Crea las rutas de productos utilizando el modelo Producto que definimos:
-- Implementa todas las operaciones CRUD
-- Agrega búsqueda por texto usando el índice de texto
-- Implementa filtros por precio, categoría y disponibilidad
-
-### Ejercicio 2: Relaciones entre Modelos
-- Crea un modelo `Pedido` que referencie `Usuario` y `Producto`
-- Implementa operaciones que usen `populate()` para mostrar datos relacionados
-- Agrega validaciones para verificar que los productos existan
-
-### Ejercicio 3: Agregaciones
-Implementa endpoints que usen agregaciones de MongoDB:
-- Estadísticas de ventas por categoría
-- Usuarios más activos
-- Productos más vendidos
-
 ## 🧪 Comandos de Prueba
 
 ```bash
