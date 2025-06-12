@@ -1,0 +1,29 @@
+{
+    "name": "fastify-api-estudiantes",
+    "version": "1.0.0",
+    "description": "API REST completa para manejar estudiantes con Fastify",
+    "main": "app.js",
+    "type": "module",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "node --watch app.js",
+        "test": "echo \"Ejecuta: curl http://localhost:3000/estudiantes\" && exit 0"
+    },
+    "keywords": [
+        "fastify",
+        "api",
+        "rest",
+        "estudiantes",
+        "crud",
+        "ejemplo"
+    ],
+    "author": "Curso Fastify",
+    "license": "MIT",
+    "dependencies": {
+        "fastify": "^4.24.3"
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "packageManager": "pnpm@10.5.2"
+}

@@ -1,0 +1,26 @@
+{
+    "name": "fastify-hello-world",
+    "version": "1.0.0",
+    "description": "Ejemplo básico de Hello World con Fastify",
+    "main": "app.js",
+    "type": "module",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "node --watch app.js"
+    },
+    "keywords": [
+        "fastify",
+        "hello-world",
+        "ejemplo",
+        "basico"
+    ],
+    "author": "Curso Fastify",
+    "license": "MIT",
+    "dependencies": {
+        "fastify": "^4.24.3"
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "packageManager": "pnpm@10.5.2"
+}

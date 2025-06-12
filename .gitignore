@@ -1,0 +1,353 @@
+# ============================================================================
+# .gitignore para Curso de Fastify con pnpm
+# ============================================================================
+
+# Dependencias de Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# pnpm específico
+pnpm-lock.yaml
+.pnpm-debug.log*
+
+# Archivos de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Archivos de tiempo de ejecución
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Directorio de instrumentación de cobertura de código
+lib-cov/
+coverage/
+*.lcov
+.nyc_output/
+
+# Directorio de instrumentación de Istanbul
+.istanbul.yml
+
+# Directorio de cobertura de ESLint
+.eslintcache
+
+# Directorio de microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Directorio de historial REPL de Node.js
+.node_repl_history
+
+# Salida de 'npm pack'
+*.tgz
+
+# Archivo de integridad de Yarn
+.yarn-integrity
+
+# Archivo de variables de entorno de dotenv
+.env
+.env.test
+
+# Parcel cache
+.cache/
+.parcel-cache/
+
+# Next.js build output
+.next/
+out/
+
+# Nuxt.js build / generate output
+.nuxt/
+dist/
+
+# Archivos de Gatsby
+.cache/
+public/
+
+# Vuepress build output
+.vuepress/dist/
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test/
+
+# Yarn v2
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# ============================================================================
+# Específicos del sistema operativo
+# ============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ============================================================================
+# IDEs y Editores
+# ============================================================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# IntelliJ IDEA / WebStorm
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+Sessionx.vim
+.netrwhist
+*~
+tags
+[._]*.un~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Eclipse
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+.project
+.externalToolBuilders/
+*.launch
+*.pydevproject
+.cproject
+.autotools
+.factorypath
+.buildpath
+.target
+.tern-project
+.texlipsetext
+.springBeans
+.recommenders/
+.apt_generated/
+.apt_generated_test/
+
+# ============================================================================
+# Archivos de proyecto específicos
+# ============================================================================
+
+# Archivos de configuración local
+config/local.js
+config/local.json
+
+# Archivos de base de datos local
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos de backup
+*.backup
+*.bak
+*.tmp
+
+# Archivos de certificados (por seguridad)
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Archivos de sesión
+sessions/
+
+# Archivos de upload temporales
+uploads/temp/
+temp/
+
+# ============================================================================
+# Archivos de construcción y distribución
+# ============================================================================
+
+# Build outputs
+build/
+dist/
+lib/
+es/
+umd/
+
+# TypeScript
+*.tsbuildinfo
+
+# Rollup
+.rollup.cache/
+
+# Webpack
+.webpack/
+
+# ============================================================================
+# Archivos de testing y coverage
+# ============================================================================
+
+# Jest
+coverage/
+.jest/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Mocha
+.mocha.opts
+
+# ============================================================================
+# Archivos de documentación generados
+# ============================================================================
+
+# JSDoc
+docs/generated/
+jsdoc/
+
+# ============================================================================
+# Archivos temporales y cache
+# ============================================================================
+
+# Cache directories
+.cache/
+.tmp/
+.temp/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# ============================================================================
+# Archivos del curso específicos (opcional)
+# ============================================================================
+
+# Archivos de estudiantes (si quieres ignorar trabajos individuales)
+# estudiantes-trabajos/
+# entregas/
+
+# Archivos de soluciones (si no quieres commitear las soluciones)
+# soluciones/
+# respuestas/
+
+# Notas privadas del profesor
+# notas-profesor.md
+# evaluaciones-privadas/
+
+# ============================================================================
+# Fin del .gitignore
+# ============================================================================
