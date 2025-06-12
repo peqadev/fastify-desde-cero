@@ -29,6 +29,12 @@ El curso está organizado en las siguientes carpetas temáticas:
    - Modelos y operaciones CRUD
    - Manejo de errores y respuestas JSON
 
+## 📋 Prerrequisitos
+
+- Node.js (versión 16 o superior)
+- Conocimientos básicos de JavaScript
+- Editor de código (VS Code recomendado)
+
 ## 🚀 Comenzar
 
 1. **Clona este repositorio:**
@@ -46,12 +52,6 @@ El curso está organizado en las siguientes carpetas temáticas:
    - Comienza con el [Tema 1](./temas/01-instalacion-basica/README.md)
    - Cada tema incluye ejercicios prácticos
    - Los ejemplos están listos para ejecutar
-
-## 📋 Prerrequisitos
-
-- Node.js (versión 16 o superior)
-- Conocimientos básicos de JavaScript
-- Editor de código (VS Code recomendado)
 
 ## 🎯 Objetivos de Aprendizaje
 
@@ -79,6 +79,7 @@ Para dudas o problemas durante el curso, consulta la documentación oficial:
 - [Fastify Documentation](https://www.fastify.io/docs/)
 - [pnpm Documentation](https://pnpm.io/)
 - [Mongoose Documentation](https://mongoosejs.com/)
+- [Internal documentation](https://github.com/peqadev/fastify-desde-cero/)
 
 ---
 
